@@ -1,0 +1,64 @@
+{
+    "points": 15,
+    "driver": "lab1.cpp",
+    "run":"make run",
+    "runtime":[
+        {
+            "crit": "Passes Test 1: Star Object Instantiation",
+            "note": "Test 1 Failed: Cannot instantiate a Star object as specified",
+            "points": -1
+        },
+        {
+            "crit": "Passes Test 2: Planet Object Instantiation",
+            "note": "Test 2 Failed: Cannot instantiate a Planet object as specified",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 3: Add Planets to a Star",
+            "note": "Test 3 Failed: Cannot add Planets to a Star as specified",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 4: Star Orbit",
+            "note": "Test 4 Failed: Star method orbit does not function as specified",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 5: Print Star information",
+            "note": "Test 5 Failed: Star information not printed as specified",
+            "points": -1
+        }
+    ],
+    "inspect":[
+        {
+            "crit": "README is complete",
+            "note": "You must complete your README and resubmit ASAP",
+            "points": -15
+        },
+        {
+            "crit": "Makefile compilation uses flags: -g -Wall -Werror",
+            "note": "must use compilation flags -g, -Wall, -and -Werror",
+            "points": -1
+        },
+        {
+            "crit": "Makefile contains 'all' target",
+            "note": "Makefile must contain 'all' target",
+            "points": -1
+        },
+        {
+            "crit": "Makefile contains 'run' target",
+            "note": "Makefile must contain 'run' target",
+            "points": -1
+        },
+        {
+            "crit": "Makefile contains 'clean' target",
+            "note": "Makefile must contain 'clean' target",
+            "points": -1
+        },
+        {
+            "crit": "Does not use global variables, using namespace in headers",
+            "note": "You must not use global variables",
+            "points": -3
+        }
+    ]
+}

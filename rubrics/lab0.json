@@ -1,0 +1,17 @@
+{
+    "points":10,
+    "run":"make all; ./lab0",
+    "runtime":[],
+    "inspect":[
+        {
+            "crit": "Compiles with a makefile",
+            "note": "must compile with a makefile",
+            "points": -1
+        },
+        {
+            "crit": "Do they have at least 1 issue posted",
+            "note": "no issue posted",
+            "points": -2
+        }
+    ]
+}

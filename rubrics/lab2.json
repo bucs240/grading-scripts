@@ -1,0 +1,61 @@
+{
+    "points": 20,
+    "driver": "lab2.cpp",
+    "run":"make run",
+    "memcheck": "make memcheck",
+    "runtime":[
+        {
+            "crit": "Passes Test 1: Star Object Instantiation",
+            "note": "Test 1 Failed: Cannot instantiate a Star object as specified",
+            "points": -3
+        },
+        {
+            "crit": "Passes Test 2: Planet Object Instantiation",
+            "note": "Test 2 Failed: Cannot instantiate a Planet object as specified",
+            "points": -3
+        },
+        {
+            "crit": "Passes Test 3: Add Planets to a Star",
+            "note": "Test 3 Failed: Cannot add Planets to a Star as specified",
+            "points": -3
+        },
+        {
+            "crit": "Passes Test 4: Remove Planets",
+            "note": "Test 4 Failed: Cannot remove Planets from Star as specified",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 5: Orbit",
+            "note": "Test 5 Failed: Orbit does not function as specified",
+            "points": -1
+        }
+        ,
+        {
+            "crit": "Passes Test 6: Print Star information, each planet ID is prepended with (r|h|g)",
+            "note": "Test 6 Failed: Star information not printed as specified",
+            "points": -1
+        }
+    ],
+    "inspect":[
+        {
+            "crit": "README is complete",
+            "note": "You must complete your README and resubmit ASAP",
+            "points": -20
+        },
+        {
+            "crit": "Makefile compilation uses flags: -g -Wall -Werror",
+            "note": "must use compilation flags -g, -Wall, -and -Werror",
+            "points": -2
+        },
+        {
+            "crit": "Does not use global variables, `using namespace` declaration in headers",
+            "note": "You must follow the style guidelines",
+            "points": -3
+        },
+        {
+            "crit": "Has separate Planet and Star implementation and header files",
+            "note": "Star and Planet must have separate implementation and header files",
+            "points": -2
+        }
+    ]
+}

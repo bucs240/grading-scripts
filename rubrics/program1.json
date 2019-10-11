@@ -1,0 +1,100 @@
+{
+    "points": 45,
+    "driver": "program1.cpp",
+    "run":"make run",
+    "memcheck": "make memcheck",
+    "runtime":[
+        {
+            "crit": "Passes Test 1",
+            "note": "Test 1 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 2",
+            "note": "Test 2 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 3",
+            "note": "Test 3 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 4",
+            "note": "Test 4 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 5",
+            "note": "Test 5 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 6",
+            "note": "Test 6 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 7",
+            "note": "Test 7 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 8",
+            "note": "Test 8 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 9",
+            "note": "Test 9 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 10",
+            "note": "Test 10 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 11",
+            "note": "Test 11 Failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 12",
+            "note": "Test 12 Failed",
+            "points": -4
+        },
+        {
+            "crit": "Passes Test 13",
+            "note": "Test 13 Failed",
+            "points": -12
+        },
+        {
+            "crit": "Passes Test 14",
+            "note": "Test 14 Failed",
+            "points": -8
+        },
+        {
+            "crit": "Completes Profiling",
+            "note": "Error when profiling code",
+            "points": -5
+        }
+    ],
+    "inspect":[
+        {
+            "crit": "README is complete",
+            "note": "You must complete your README and resubmit ASAP",
+            "points": -45
+        },
+        {
+            "crit": "Makefile compilation uses flags: -g -Wall -Werror",
+            "note": "must use compilation flags -g, -Wall, -and -Werror",
+            "points": -3
+        },
+        {
+            "crit": "Does not use global variables, `using namespace` declaration in headers",
+            "note": "You must follow the style guidelines",
+            "points": -3
+        }
+    ]
+}

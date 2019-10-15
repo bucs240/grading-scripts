@@ -1,0 +1,56 @@
+{
+    "points": 20,
+    "driver": "lab3.cpp",
+    "run":"make run",
+    "memcheck": "make memcheck",
+    "runtime":[
+        {
+            "crit": "Passes Test 1: Test add 1 element to an int Queue",
+            "note": "Test 1 Failed: Cannot instantiate an int Queue object as specified",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 2: Fill a char Queue",
+            "note": "Test 2 Failed: Cannot fill a char Queue as specified",
+            "points": -3
+        },
+        {
+            "crit": "Passes Test 3: Queue order",
+            "note": "Test 3 Failed: Incorrect Queue Order",
+            "points": -5
+        },
+        {
+            "crit": "Passes Test 4: Verify copy constructor ",
+            "note": "Test 4 Failed: Copy Constructor not working as specified",
+            "points": -4
+        },
+        {
+            "crit": "Passes Test 5: Test Peek and Clear methods",
+            "note": "Test 5 Failed: Peek and Clear now working as specified",
+            "points": -3
+        }
+        ,
+        {
+            "crit": "Passes Test 6: Test operator overloading",
+            "note": "Test 6 Failed: operator overloading failed",
+            "points": -3
+        }
+    ],
+    "inspect":[
+        {
+            "crit": "README is complete",
+            "note": "You must complete your README and resubmit ASAP",
+            "points": -20
+        },
+        {
+            "crit": "Makefile compilation uses flags: -g -Wall -Werror",
+            "note": "must use compilation flags -g, -Wall, -and -Werror",
+            "points": -2
+        },
+        {
+            "crit": "Does not use global variables, `using namespace` declaration in headers",
+            "note": "You must follow the style guidelines",
+            "points": -3
+        }
+    ]
+}

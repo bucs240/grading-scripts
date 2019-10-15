@@ -85,7 +85,7 @@ class SubmissionGrader:
 
         if("memcheck" in self.rubric):
             os.system("make memcheck")
-            prompt = "\n\n -- Does their code free of any and all memory leaks? [Y/n]"
+            prompt = "\n\n -- Is their code free of any and all memory leaks/errors? [Y/n]"
             if(input(prompt).lower() != 'y'):
                 print("Memory Leaks")
                 self.gradefile.write("Code does not compile. Unable to evaluate.\n")

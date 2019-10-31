@@ -1,0 +1,115 @@
+{
+    "points": 30,
+    "driver": "lab5.cpp",
+    "run":"make run",
+    "memcheck": "make memcheck",
+    "runtime":[
+        {
+            "crit": "Passes Test 1: Create an empty tree",
+            "note": "Test 1 Failed: Cannot instantiate an empty BST",
+            "points": -1
+        },
+        {
+            "crit": "Passes Test 2: Insert values into the Tree",
+            "note": "Test 2 Failed: Cannot insert values into the Tree",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 3: Cannot insert duplicate values into the Tree",
+            "note": "Test 3 Failed: duplicate values in the Tree",
+            "points": -1
+        },
+        {
+            "crit": "Passes Test 4: Insert 1000 Values into the Tree",
+            "note": "Test 4 Failed: Insert failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 5: Find values in the tree",
+            "note": "Test 5 Failed: Find failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 6: Find doesn't segfault on empty tree",
+            "note": "Test 6 Failed: Find failed on empty tree",
+            "points": -1
+        },
+        {
+            "crit": "Passes Test 7: Cannot remove non-existent values",
+            "note": "Test 7 Failed: remove failed",
+            "points": -1
+        },
+        {
+            "crit": "Passes Test 8: Remove leaf",
+            "note": "Test 8 Failed: remove leaf failed",
+            "points": -1
+        },
+        {
+            "crit": "Passes Test 9: Short Cicuit",
+            "note": "Test 9 Failed: Short Circuit remove failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 10: Promotion with leaf",
+            "note": "Test 10 Failed: Promotion with leaf failed",
+            "points": -1
+        },
+        {
+            "crit": "Passes Test 11: Promotion with short circuit",
+            "note": "Test 11 Failed: Promotion with short ciruit failed",
+            "points": -1
+        },
+        {
+            "crit": "Passes Test 12: Remove root with 2 branches",
+            "note": "Test 12 Failed: Remove root with 2 branches failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 13: Remove root with 1 branch",
+            "note": "Test 13 Failed: Remove root with 1 branch failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 14: Remove root as leaf",
+            "note": "Test 14 Failed: Remove root as leaf failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 15: Deep Copy",
+            "note": "Test 15 Failed: Deep Copy failed",
+            "points": -2
+        },
+        {
+            "crit": "Passes Test 16: Deletion",
+            "note": "Test 15 Failed: Deletion failed",
+            "points": -2
+        },
+        {
+            "crit": "Extra Credit: Did they *skip* the extra credit? NOTE: enter 'n' to give extra credit (Y/n)",
+            "note": "Extra Credit complete",
+            "points": 10
+        }
+    ],
+    "inspect":[
+        {
+            "crit": "README is complete",
+            "note": "You must complete your README and resubmit ASAP",
+            "points": -30
+        },
+        {
+            "crit": "Makefile compilation uses flags: -g -Wall -Werror",
+            "note": "must use compilation flags -g, -Wall, -and -Werror",
+            "points": -30
+        },
+        {
+            "crit": "Does not use global variables, `using namespace` declaration in headers",
+            "note": "You must follow the style guidelines",
+            "points": -3
+        },
+        {
+            "crit": "Is the Node class an internal private class? (Y/n)",
+            "note": "You must follow the style guidelines",
+            "points": -3
+        }
+    ]
+}

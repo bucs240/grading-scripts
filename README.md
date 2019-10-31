@@ -1,4 +1,4 @@
-# CS110 Grading Scripts
+# CS240 Grading Scripts
 ## Fall 2019
 
 ***

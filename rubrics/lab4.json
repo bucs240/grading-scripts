@@ -1,0 +1,50 @@
+{
+    "points": 20,
+    "driver": "lab4.cpp",
+    "run":"make run",
+    "memcheck": "make memcheck",
+    "runtime":[
+        {
+            "crit": "Passes Test 1: Star and Planet Classes",
+            "note": "Test 1 Failed: Cannot instantiate Star and Planet Classes",
+            "points": -4
+        },
+        {
+            "crit": "Passes Test 2: Verify you are using nullptr ",
+            "note": "Test 2 Failed: not using nullptr",
+            "points": -4
+        },
+        {
+            "crit": "Passes Test 3: Check habitability algorithm",
+            "note": "Test 3 Failed: Incorrect habitability algorithm",
+            "points": -4
+        },
+        {
+            "crit": "Passes Test 4: Correct Queue usage",
+            "note": "Test 4 Failed: Queue not working as specified",
+            "points": -4
+        },
+        {
+            "crit": "Passes Test 5: Shuffles the queue to produce a random order",
+            "note": "Test 5 Failed: Queue is not shuffled",
+            "points": -3
+        }
+    ],
+    "inspect":[
+        {
+            "crit": "README is complete",
+            "note": "You must complete your README and resubmit ASAP",
+            "points": -20
+        },
+        {
+            "crit": "Makefile compilation uses flags: -g -Wall -Werror",
+            "note": "must use compilation flags -g, -Wall, -and -Werror",
+            "points": -2
+        },
+        {
+            "crit": "Does not use global variables, `using namespace` declaration in headers",
+            "note": "You must follow the style guidelines",
+            "points": -3
+        }
+    ]
+}
